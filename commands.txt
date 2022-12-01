@@ -1,0 +1,19 @@
+SCP COMMANDS
+
+Download file from server via ssh
+
+scp infoadmin@192.168.3.33:/var/test_deploy/* /home/sibin/download
+
+
+
+
+Upload file to server
+
+scp * infoadmin@192.168.3.33:/var/test_deploy
+
+
+
+
+Copy from one server to another
+
+scp username1@hostname1:/path/to/file username2@hostname2:/path/to/other/file
